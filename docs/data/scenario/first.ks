@@ -1,46 +1,91 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="テスト前日に何をするか悩む太郎くん"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「テスト前日に何をするか悩む太郎くん」[l][r]
 
-メロスは激怒した。[l][r]
+2021年11月24日、テストを明日に控えた太郎くん。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+もちろんテスト対策など全くしていなかった。[l][r]
 
-(中略)[l][r]
+明日11月25日に半導体工学、モデリングと制御の試験があることだけは把握していた。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+9:00に目を覚ました太郎くん。[l][r]
+太郎くんは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_semiconductor] →半導体工学のテスト対策のみする[endlink][r]
+[link target=*tag_modeling] →モデリングと制御のみする[endlink][r]
+[link target=*tag_both] →両方テスト対策する[endlink][r]
+[link target=*tag_lazy] →諦めて遊びに行く[endlink][r]
 [s]
 
-*tag_sleep
+*tag_semiconductor
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=semiconductor.jpeg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+太郎くんは半導体工学のみの対策を行った。[l][r]
+
+[cm]
+
+[bg storage=絶望.jpeg time=500]
+モデリングと制御の対策を行っていないため単位を落としてしまった。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_modeling
 
-[bg storage=run.jpg time=500]
+[bg storage=modeling.jpeg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+太郎くんはモデリングと制御のみの対策を行った。[l][r]
 
-【 GOOD END 】[l][cm]
+[cm]
+[bg storage=絶望.jpeg time=500]
+
+半導体工学の対策を行っていないため単位を落としてしまった。[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_both
+
+[bg storage=night.png time=500]
+
+[cm]
+太郎くんは徹夜をして両方の対策を行った。[l][r]
+
+[cm]
+[bg storage=絶望.jpeg time=500]
+
+当日は寝坊してしまい両方の単位を落としてしまった。[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_lazy
+
+[cm]
+太郎くんは諦めて早く寝た。[l][r]
+
+[cm]
+[bg storage=morning.jpeg time=500]
+
+11月25日、目覚めの良い朝を迎えた太郎くん。体調はとてもよく、テストに対して根拠のない自身が生まれていた。[r]
+
+[cm]
+[bg storage=絶望.jpeg time=500]
+
+当然世の中そこまで甘くはないため、どちらの単位も落としてしまった。[r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
